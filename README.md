@@ -4,7 +4,7 @@
 
 This is a ToDo App made with React to maintain day-to-day tasks or list for everything that we have to do.
 
-## Topics learned -
+## Topics learned
 
 - Class component
 - Props
