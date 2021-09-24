@@ -1,6 +1,6 @@
 # React JS ToDo App
 
-[ToDo-App]()
+Click on [ToDo-App](https://pensive-galileo-48e705.netlify.app/) to see the live demo.
 
 This is a ToDo App made with React to maintain day-to-day tasks or list for everything that we have to do.
 
