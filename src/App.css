@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* --------------------------  custom css  -------------------------------- */
+*{
+  color: #010038;
+}
+
+.container{
+  /* border: 3px solid #293A80; */
+  width: 80%;
+  background-color: #537EC5;
+  border-radius: 25px;
+  padding: 15px 0;
+}
+
+#input{
+  height: 30px;
+  font-size: 20px;
+  border-radius: 50px;
+  text-align: center;
+  border: 3px solid #010038;
+}
+
+#btn{
+  height: 35px;
+  width: 150px;
+  border-radius: 15px;
+  background-color: #F39422;
+  color: #010038;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  /* box-shadow: none; */
+  transition: 0.2s ease-in-out;
+  /* margin-left: 10px; */
+}
+
+#btn:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+
+.todo-area{
+  /* width: 80%; */
+  display: flex;
+  justify-content: center;
+}
+
+.todo-list{
+  /* border: #fff 3px solid; */
+  width: 60%; 
+  /* display: none; */
+}
+
+.todo-list:active{
+  display: block;
+}
+
+ul{
+  list-style: none;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 20px 0;
+  border: 2px solid #293A80;
+}
+
+li{
+  font-size: 20px;
+  font-size: 22px;
+}
+
+.delete-btn{
+  margin-left: 20px;
+  background-color: #F39422;
+  color: #010038;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  font-weight: 500;
+  /* font-size: 25px; */
+  padding: 5px;
+}
